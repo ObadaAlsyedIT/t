@@ -1,0 +1,104 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+@media (max-width:500px){
+    header{
+        background-color: tomato;
+        padding:14px;
+        
+    }
+    header div{
+        width:18%;
+        padding:6px;
+        margin: auto;
+        border:7px solid white;
+        border-radius: 30px;
+        color:white;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+    .Welcom{
+        background-color: #ffbf3b;
+        color: white;
+        font-size: 21px;
+        font-weight: bold;
+        font-family: sans-serif;
+        text-align: center;
+        margin: -4px;
+        padding: 11px;
+    }
+
+    .list{
+        position:sticky;
+        top:0px;
+    }
+    .list ul{
+        list-style: none;
+        background-color: #F1F1F1;
+        text-align: center;
+        font-family: sans-serif;
+        margin: 5px;
+        padding: 15px;
+        line-height: 28px;
+        font-size: 20px;
+       
+        
+    }
+
+    ul li span{
+        color:red;
+    }
+
+    .content{
+    padding: 10px 26px;
+    font-size: 17px;
+    font-family: sans-serif;
+    }
+
+    .content h1{
+        color:red;
+    }
+
+    .image{
+        width: 430px;
+        display: block;
+        margin: 8px auto;
+    }
+  
+
+    .last{
+       
+        text-align: center;
+        padding: 10px 20px 40px 20px;
+        background-color: #F1F1F1;
+        font-family: sans-serif;
+    }
+
+    input{
+        padding: 11px;
+        border: 2px black;
+        border-radius: 22px;
+        outline: none;
+    }
+
+    input:focus{
+        outline: none;
+        border: 3px dashed black;
+    }
+
+    footer{
+        background-color: #e23516;
+        color: white;
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 16px;
+        padding: 3px;
+    }
+    footer a{
+        color:white;
+    }
+    
+    
+}
